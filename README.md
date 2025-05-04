@@ -1,21 +1,21 @@
 # Ensemble
-This repository contains all code and documentation for analyzing user engagement on Adidas’s Instagram and TikTok accounts.
+This repository contains all code and documentation for analyzing user engagement on Adidas’s Instagram and TikTok accounts. <br />
 
 
-Structure:
-Ensemble/
-├── src/
-│   └── Ensemble/
-│       ├── data/
-│       │   ├── instagram/          # Processed Instagram data (CSVs)
-│       │   ├── raw_instagram/      # Raw JSON files from Instaloader
-│       │   ├── raw_tiktok/         # Raw TikTok JSON files
-│       │   └── tiktok/             # Processed TikTok data (CSVs)
-│       └── Ensemble.ipynb  # Main notebook with full analysis
+Structure:<br />
+Ensemble/<br />
+├── src/<br />
+│   └── Ensemble/<br />
+│       ├── data/<br />
+│       │   ├── instagram/          # Processed Instagram data (CSVs)<br />
+│       │   ├── raw_instagram/      # Raw JSON files from Instaloader<br />
+│       │   ├── raw_tiktok/         # Raw TikTok JSON files<br />
+│       │   └── tiktok/             # Processed TikTok data (CSVs)<br />
+│       └── Ensemble.ipynb  # Main notebook with full analysis<br />
 ├── README.md
-
-
-Ensemble.ipynb: Full analysis, from loading raw data to generating final insights and visualizations.
-data/:
---- raw_instagram/ and raw_tiktok/: Raw metadata files used as input.
+<br />
+<br />
+Ensemble.ipynb: Full analysis, from loading raw data to generating final insights and visualizations.<br />
+data/:<br />
+--- raw_instagram/ and raw_tiktok/: Raw metadata files used as input.<br />
 --- instagram/ and tiktok/: Cleaned and processed datasets ready for analysis
